@@ -69,3 +69,31 @@ nav{
     font-size: 65px;
     color: #252432;
 }
+/* section-middle */
+.midle-header{
+    display: flex;
+    justify-content: space-between;
+    width: 1123px;
+    margin: 100px 176px 0px 141px;
+    
+}
+.midle-past{
+    max-width: 517px;
+    padding: 50px;
+}
+
+.midle-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+
+}
+.midle-pera{
+    font-size: 24px;
+    
+    color: rgba(37, 36, 50, 0.5);
+}
+.img{
+    width: 403px;
+    border-radius: 48px;
+}
