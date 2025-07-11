@@ -14,12 +14,7 @@
   
 }
 
-.inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
-}
+
 /* shared style  */
 .btn-primary{
     background-color: #4E47FF;
