@@ -202,11 +202,8 @@ body {
   transform: translateY(-5px);
 }
 
-.stars {
-  color: #f5b50a;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
+
+
 
 .card h3 {
   margin: 10px 0;
@@ -241,3 +238,55 @@ body {
   font-size: 12px;
   color: #888;
 }
+/* section-hero  */
+
+.phero{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  padding: 80px 20px;
+  background-color: #f6f8fc;
+}
+
+.content {
+  text-align: center;
+
+  background: white;
+  border-radius: 14px;
+  padding: 60px 30px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 0.5) ;
+  max-width: 900px;
+
+  width: 100%;
+}
+
+
+
+.content p {
+  font-size: 16px;
+  color:rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+
+
+
+
+.hero-image {
+  margin-top: 40px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
