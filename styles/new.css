@@ -290,3 +290,53 @@ body {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 
+/* section-container */
+
+ .container {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+            
+            
+            height: 100vh;
+            margin: 0;
+            gap: 50px;
+
+
+
+        }
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 97px;
+            font-weight:Bold;
+            
+            color: rgba(0, 0, 0, 1);
+            
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .form-group label {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 1);
+        }
+        .form-group input, .form-group textarea {
+            padding: 10px;
+            border: 1px solid rgba(255, 255, 255, 1);
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .form-group textarea {
+            height: 100px;
+            resize: none;
+        }
+        
