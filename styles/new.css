@@ -13,6 +13,13 @@
   font-style: normal;
   
 }
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
 /* shared style  */
 .btn-primary{
     background-color: #4E47FF;
@@ -50,6 +57,7 @@ nav{
 }
 .nav-title{
     font-weight: black;
+    
     height: 150%;
     font-size: 34px;
     color: #4E47FF;
@@ -57,8 +65,8 @@ nav{
 /* banner style */
 .banner{
     max-width: 1140px;
-    margin: 50px 100px;
-    padding: 130px 150px;
+    margin: 0px auto;
+    padding: 75px 150px;
     text-align: center;
 
     
@@ -74,7 +82,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 1123px;
-    margin: 100px 176px 0px 141px;
+    margin: 116px 0px 140px 160px;
     
 }
 .midle-past{
@@ -96,4 +104,65 @@ nav{
 .img{
     width: 403px;
     border-radius: 48px;
+}
+/* section style */
+.about{
+    max-width: 1440px;
+    border-radius: 24px;
+    text-align: center;
+    padding-top: 50px;
+    
+    margin:116px 137px 141px 159px;
+    justify-content: center;
+  
+    
+
+
+
+}
+.secondary-bg{
+    background-color: rgba(78, 71, 255, 0.1);
+    justify-content: center;
+    
+
+
+}
+
+
+
+
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+    
+    color: rgba(37, 36, 50, 1);
+
+
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 5px;
+    color: rgba(78, 71, 255, 1);
+   
+
+}
+.item-description{
+    font-size: 20px;
+    
+    color: rgba(0, 0, 0, 0.5);
+    
+    
+    
+
 }
